@@ -13,7 +13,7 @@ phishing_<name>
 Since I am following the concept of playbook reutilisation, playbooks that can also be used in other use cases are as follows in the name conversion. 
 
 Example:
- rc_input_<name>
- rc_auto_<name>
+rc_input_<name>
+rc_auto_<name>
 
 All these playbooks are self-contained and will have input and output whereby all these playbooks will always have an output which can then be further processed in the parent playbook. (only applies to input playbooks)
