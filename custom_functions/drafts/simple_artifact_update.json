@@ -1,0 +1,39 @@
+{
+    "create_time": "2023-12-15T10:20:47.756919+00:00",
+    "custom_function_id": "58803f80d045977ef10264e603897a7eceb18245",
+    "description": "This CF updates an arftifact based on the JSON provided.",
+    "draft_mode": true,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "If no container ID is specified, the CF uses the id in the container context where the playbook is currently being executed.",
+            "input_type": "item",
+            "name": "container_id",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "The Artifact ID is required",
+            "input_type": "item",
+            "name": "artifact_id",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "The JSON must be structured as shown at https://docs.splunk.com/Documentation/SOARonprem/6.2.0/PlatformAPI/RESTArtifacts",
+            "input_type": "item",
+            "name": "artifact_json",
+            "placeholder": ""
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "message",
+            "description": ""
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
