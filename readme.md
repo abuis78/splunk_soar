@@ -7,12 +7,12 @@ Everything that is offered here as a download can be used at your own risk. I as
 <h1>Playbooks</h1>
 The playbooks are mostly structured in such a way that I try to follow a certain name conversion.
 
-Example, phishing use_case:<br>
+<h3>Example, phishing use_case:</h3>
 "phishing_<name>"
 
 Since I am following the concept of playbook reutilisation, playbooks that can also be used in other use cases are as follows in the name conversion. 
 
-Example:<br>
+<h3>EExample:</h3>
 "rc_input_<name>"<br>
 "rc_auto_<name>"
 
