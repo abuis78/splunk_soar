@@ -12,7 +12,7 @@ The playbooks are mostly structured in such a way that I try to follow a certain
 <br>
 Since I am following the concept of playbook reutilisation, playbooks that can also be used in other use cases are as follows in the name conversion. 
 
-<h3>EExample:</h3>
+<h3>Example:</h3>
 "rc_input_< name >"<br>
 "rc_auto_< name >"<br>
 <br>
