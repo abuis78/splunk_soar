@@ -8,12 +8,12 @@ Everything that is offered here as a download can be used at your own risk. I as
 The playbooks are mostly structured in such a way that I try to follow a certain name conversion.
 
 <h3>Example, phishing use_case:</h3>
-"phishing_< name >"
-
+"phishing_< name >"<br>
+<br>
 Since I am following the concept of playbook reutilisation, playbooks that can also be used in other use cases are as follows in the name conversion. 
 
 <h3>EExample:</h3>
 "rc_input_< name >"<br>
-"rc_auto_< name >"
-
+"rc_auto_< name >"<br>
+<br>
 All these playbooks are self-contained and will have input and output whereby all these playbooks will always have an output which can then be further processed in the parent playbook. (only applies to input playbooks)
