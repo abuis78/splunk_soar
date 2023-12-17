@@ -1,0 +1,32 @@
+{
+    "create_time": "2023-12-17T19:55:26.324824+00:00",
+    "custom_function_id": "f915188ca4d5709e4a7d7c1575aa716d0338aca2",
+    "description": "Creates a base64 encoded data from a SOAR Vault file.  Which can then be uploaded to Mission Controll.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "",
+            "input_type": "item",
+            "name": "vault_id",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "",
+            "input_type": "item",
+            "name": "container_id",
+            "placeholder": ""
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "base64_data",
+            "description": ""
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
